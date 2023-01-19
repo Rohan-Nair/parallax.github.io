@@ -43,9 +43,11 @@
 .startcontainer h1 {
   color: black;
   font-family: sans-serif;
-  font-size: 13rem;
+  /* font-size: 13rem; */
+  font-size: 10vw;
   position: absolute;
-  top: 1.3em;
+  /* top: 1.3em; */
+  top: 20vh;
   text-shadow: 0 0 10px grey;
   /* margin: 0 auto; */
 }
