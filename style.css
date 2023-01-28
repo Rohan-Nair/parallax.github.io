@@ -102,3 +102,33 @@
 .b3 {
   background-image: url(img/sport-3.jpg);
 }
+
+@media screen and (max-width: 480px) {
+  .startcontainer h1 {
+    font-size: 15vw;
+    margin-top: 19vh;
+  }
+  .heading {
+    width: 100%;
+    font-size: 13vw;
+    padding: 0 2vw 0 2vw;
+    text-align: center;
+    padding-top: 5vh;
+  }
+  .text {
+    font-size: 5vw;
+    padding: 0 3vw 0 3vw;
+    margin: 3rem 0;
+  }
+
+  .bg h2 {
+    font-size: 8vw;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .startcontainer h1 {
+    font-size: 15vw;
+  }
+} ;
